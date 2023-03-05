@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11.ders</title>
+</head>
+
+<body>
+    form ekleme
+    <form>
+        <p>ad :<input type="text"> veri giriş alanıdır. type ile yazı biçimini seçeriz</p>
+        <p>soyad : <input type="text"></p>
+        <p>eposta : <input type="email"> </p>
+        <p>parolanızı girimiz : <input type="password"> yazdığımızda parola görünür olmuyor </p>
+        <p> parolayı hatırla <input type="checkbox"></p>
+        <p> cinsiyetiniz: erkek <input type="radio" name="cinsiyet">
+            kadın <input type="radio" name="cinsiyet">
+            name ile isim belirtip sadece 1 tanesini seçmesini isteriz.
+        </p>
+
+        <p> HOBİLERİNİZ <br>
+            kitap okumak <input type="checkbox" name="hobi">
+            sinemaya gitmek<input type="checkbox" name="hobi">
+            spor yapmak <input type="checkbox" name="hobi">
+        </p> doğum yeriniz <br>
+        <p><select name="doğum yeri">
+            <option>ankara</option>
+            <option> izmir</option>
+            <option>istanbul</option>
+            <option> bolu</option>
+        </select> </p>
+
+        <p> birden fazla seçmesini istersek</p> <br>
+        <p><select multiple name="doğum yeri">
+            <option>ankara</option>
+            <option> izmir</option>
+            <option>istanbul</option>
+            <option> bolu</option> 
+        </select> </p> <br>
+
+        <p> deneme için v3den alndı</p>
+        <h2>sıfırlama butonu</h2>
+
+<p>
+  <label for="isim">adınız:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form> 
+
+<p>reset ve gönder butonu.</p>
+       
+    
+    </form>
+
+</body>
+
+</html>
